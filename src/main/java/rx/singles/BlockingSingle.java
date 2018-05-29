@@ -41,7 +41,7 @@ public final class BlockingSingle<T> {
 
     private BlockingSingle(Single<? extends T> single) {
 
-
+        //f2
         this.single = single;
     }
 
