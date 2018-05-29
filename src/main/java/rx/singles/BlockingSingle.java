@@ -40,6 +40,8 @@ public final class BlockingSingle<T> {
     private final Single<? extends T> single;
 
     private BlockingSingle(Single<? extends T> single) {
+
+
         this.single = single;
     }
 
